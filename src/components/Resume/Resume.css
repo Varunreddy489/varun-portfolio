@@ -1,0 +1,12 @@
+.resume {
+  text-align: center;
+}
+
+.resume-container {
+  margin: auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}

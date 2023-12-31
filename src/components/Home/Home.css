@@ -1,0 +1,83 @@
+section {
+    margin: 2rem 8.5rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+
+.detail h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.detail p {
+    margin-top: 1rem;
+    font-size: 0.98rem;
+    color: #fff;
+}
+
+.detail span{
+    color: #00e8f8;
+    
+} 
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00e8f8;
+    font-size: 1rem;
+    border: 1.6px solid #00e8f8;
+    border-radius: 50%;
+    padding: 0.35rem;
+    width: 26px;
+    height: 26px;
+}
+
+.social a:hover {
+    color: #1F252E;
+    background-color: #00E8F8;
+    box-shadow: 0 0 20px #00E8F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.detail h1 span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+
+.detail h1 span:nth-child(2) {
+    color: #00E8F8;
+}
+
+.images {
+    background-image: url(/Varun.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -75px;
+    -webkit-box-shadow: 0 10px 10px -10px #000000;
+    -moz-box-shadow: 0 10px 10px -10px #000000;
+    box-shadow: 0px 16px 4px -10px #00E8F8;
+    width: 528px;
+    background-size: cover;
+    transform: scale(0.7);
+    border-radius: 5%;
+}
+
+img {
+    border-radius: 5%;
+}
