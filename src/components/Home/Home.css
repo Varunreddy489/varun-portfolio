@@ -10,6 +10,16 @@ section {
     margin: 5rem auto;
 }
 
+@media (max-width: 600px) {
+    .main {
+        width: 100%;
+        align-items:start; 
+    }
+    .detail{
+        margin-right: 30px;
+    }
+}
+
 
 .detail h1 {
     font-size: 2.5rem;

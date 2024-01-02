@@ -24,10 +24,19 @@ header {
     text-decoration: none;
 }
 
+.anchor {
+    @media screen and (max-width: 640px) {
+        display: none;
+        width: 100%;
+    }
+}
+
+
 nav {
     display: flex;
     align-items: center;
     margin-left: auto; 
+    margin-right: 50px;
 }
 
 nav a {
