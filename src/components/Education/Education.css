@@ -9,6 +9,13 @@
     list-style: none;
     padding: 0;
   }
+  @media (max-width: 600px) {
+    .education-block {
+      font-size:small;
+        width: 100%;
+    }
+
+}
   
   .education-block li {
     margin-bottom: 20px;

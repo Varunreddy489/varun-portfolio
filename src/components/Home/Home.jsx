@@ -1,19 +1,32 @@
-import React from "react";
-import "./Home.css";
+  import React from "react";
+  import "./Home.css";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+  import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Home = () => {
-  return (
-    <>
-      <section id="home">
-        <div className="main">
-          <div >
+  const Home = () => {
+    return (
+      <>
+        <section id="home">
+          <div className="main">
             <div className="detail">
               <h1>
                 <span>Hello there! 👋</span> <br /> I am{" "}
                 <span style={{ color: "#00E8F8" }}>Varunreddy</span>
               </h1>
+              <div className="social">
+            <a
+              href="https://github.com/Varunreddy489?tab=repositories"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/varunreddy-sannapureddy-1157b9223/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
               <p>
                 I am a Front-End Web Developer,
                 <br />
@@ -35,29 +48,14 @@ const Home = () => {
                 <span> Typescript</span>
               </p>
             </div>
-
-            <div className="social">
-              <a
-                href="https://github.com/Varunreddy489?tab=repositories"
-                target="_blank"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/varunreddy-sannapureddy-1157b9223/"
-                target="_blank"
-              >
-                <FaLinkedin />
-              </a>
+            <div className="images">
+              <img src="/Varun.jpg" className="pic" width="100%" />
             </div>
           </div>
-          <div className="images">
-            <img src="/Varun.jpg" className="pic" alt="" width="100%" />
-          </div>
-        </div>
-      </section>
-    </>
-  );
-};
+         
+        </section>
+      </>
+    );
+  };
 
-export default Home;
+  export default Home;

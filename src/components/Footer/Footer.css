@@ -8,3 +8,9 @@
 .footer h2 {
     margin: 0;
 }
+
+@media (max-width: 600px) {
+    .footer {
+        width: 100%;
+    }
+}

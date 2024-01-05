@@ -1,25 +1,39 @@
-section {
+.section {
     margin: 2rem 8.5rem;
 }
 
 .main {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    margin: 5rem auto;
+    margin-top: 80px ;
 }
 
 @media (max-width: 600px) {
     .main {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        align-items:start; 
+        align-items: center;
     }
-    .detail{
-        margin-right: 30px;
+
+    .images {
+        width: 50%;
+        align-items: center;
+        margin-bottom: 20px; 
+    }
+
+    .detail {
+        margin: 10px; 
+    }
+
+    .social {
+        margin-top: 20px; 
     }
 }
 
+.detail {
+    margin: 100px; 
+}
 
 .detail h1 {
     font-size: 2.5rem;
@@ -27,49 +41,19 @@ section {
     color: #fff;
 }
 
-
 .detail p {
     margin-top: 1rem;
     font-size: 0.98rem;
     color: #fff;
 }
 
-.detail span{
+.detail span {
     color: #00e8f8;
-    
-} 
-
-.social {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.4rem;
-    margin-top: 1.7rem;
-}
-
-.social a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #00e8f8;
-    font-size: 1rem;
-    border: 1.6px solid #00e8f8;
-    border-radius: 50%;
-    padding: 0.35rem;
-    width: 26px;
-    height: 26px;
-}
-
-.social a:hover {
-    color: #1F252E;
-    background-color: #00E8F8;
-    box-shadow: 0 0 20px #00E8F8;
-    transition: all 0.3s ease-in-out;
 }
 
 .detail h1 span:nth-child(1) {
     font-size: 1.5rem;
 }
-
 
 .detail h1 span:nth-child(2) {
     color: #00E8F8;
@@ -90,4 +74,32 @@ section {
 
 img {
     border-radius: 5%;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    /* margin: 100px; */
+
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00e8f8;
+    font-size: 1rem;
+    border: 1.6px solid #00e8f8;
+    border-radius: 50%;
+    padding: 0.35rem;
+    width: 26px;
+    height: 26px;
+}
+
+.social a:hover {
+    color: #1F252E;
+    background-color: #00E8F8;
+    box-shadow: 0 0 20px #00E8F8;
+    transition: all 0.3s ease-in-out;
 }
