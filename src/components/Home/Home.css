@@ -5,7 +5,7 @@
 .main {
     display: flex;
     align-items: center;
-    margin-top: 80px ;
+    margin-top: 80px;
 }
 
 @media (max-width: 600px) {
@@ -19,29 +19,32 @@
     .images {
         width: 50%;
         align-items: center;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
     .detail {
-        margin: 10px; 
+        margin: 10px;
     }
 
     .social {
-        margin-top: 20px; 
+        margin-top: 20px;
     }
 }
 
 .detail {
-    margin: 100px; 
+    margin: 100px;
 }
 
 .detail h1 {
+    text-align: left;
     font-size: 2.5rem;
     font-weight: 600;
     color: #fff;
 }
 
 .detail p {
+    text-align: left;
+
     margin-top: 1rem;
     font-size: 0.98rem;
     color: #fff;
@@ -80,7 +83,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 1.4rem;
-    /* margin: 100px; */
+
 
 }
 

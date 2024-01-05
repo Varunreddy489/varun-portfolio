@@ -48,9 +48,11 @@
                 <span> Typescript</span>
               </p>
             </div>
+            
             <div className="images">
               <img src="/Varun.jpg" className="pic" width="100%" />
             </div>
+            
           </div>
          
         </section>
