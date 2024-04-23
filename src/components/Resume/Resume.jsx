@@ -1,15 +1,7 @@
 import RESUME from "../../../public/RESUME.pdf";
-import { useState } from "react";
-import { Page } from "react-pdf";
 import "./Resume.css"; 
 
-const Resume = (props) => {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-  };
+const Resume = () => {
 
   return (
     <div id="resume" >
@@ -22,7 +14,7 @@ const Resume = (props) => {
         height="900px"
         style={{ border: "none", backgroundColor: "transparent" }}
         >
-        <div pageNumber={pageNumber} />
+        <div />
       </iframe>
     </div>
         </div>

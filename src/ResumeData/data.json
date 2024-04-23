@@ -1,11 +1,14 @@
+
+
 {
   "skills": [
     "HTML",
     "CSS",
+    "Tailwind CSS",
     "JavaScript",
+    "ReactJS",
     "Node.Js",
     "Git",
-    "ReactJS",
     "C++",
     "Version Control",
     "SQL"
