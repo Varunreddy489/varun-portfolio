@@ -1,21 +1,17 @@
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./components/Home/Home";
-import Education from "./components/Education/Education";
-import Skills from "./components/Skills/Skills";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects/Projects";
-import Resume from "./components/Resume/Resume";
-import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Home />
-      <Education />
       <Skills />
       <Projects />
-      <Resume />
       <Contact />
       <Footer />
     </div>
